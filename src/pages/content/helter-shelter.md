@@ -6,4 +6,12 @@ I'm starging a new site while I've been keeping busy during California's Shelter
 
 When we reach that date, shit is going to be off the hook.
 
-<CallToAction url="/" align="center" bgColor="crimson">Wow</CallToAction>
+![]()
+
+
+
+```javascript
+import React from "react";
+```
+
+<CallToAction url="" align="center" bgColor="undefined"></CallToAction>
