@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby-MDX + Netlify-CMS Starter`,
-    description: `Starter for Gatsby-MDX + Netlify CMS`,
-    author: `@renvrant`,
+    title: `Maggi-io-cms`,
+    description: `Maggi-io Website CMS`,
+    author: `@idmo`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
