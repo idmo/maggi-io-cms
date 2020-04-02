@@ -68,7 +68,8 @@ collections:
     folder: "src/blog/posts"
     identifier_field: name
     create: true
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "Excerpt", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "Excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
