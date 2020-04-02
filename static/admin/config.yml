@@ -66,8 +66,12 @@ collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "src/blog/posts"
-    identifier_field: name
+    identifier_field: title
     create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    encoding: "ascii"
+    clean_accents: true
+    sanitize_replacement: "_"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "Excerpt", widget: "text" }
