@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
-        path: `${__dirname}/src/blog/posts`,
+        path: `${__dirname}/src/blog`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -30,7 +30,8 @@ module.exports = {
           // This entry template will switch the page template based on
           // a frontmatter value provided in the CMS, allowing users to
           // choose different template layouts.
-          default: require.resolve(`./src/page-templates/cms-entry.template.js`)
+          default: require.resolve(`./src/page-templates/cms-entry.template.js`),
+          blog: require.resolve(`./src/page-templates/blog-post.template.js`),
         },
       }
     },

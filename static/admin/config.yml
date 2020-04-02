@@ -65,7 +65,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "posts"
     label: "Blog Posts"
-    folder: "src/blog/posts"
+    folder: "src/blog"
     identifier_field: name
     create: true
     fields:
