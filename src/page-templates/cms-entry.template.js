@@ -1,7 +1,7 @@
 import React from "react"
 
 import HomePage from "./home-page.template"
-import HomePageAlternate from "./home-page-alternate.template"
+import BlogPost from "./blog-post.template"
 import DefaultPage from "./default-page.template"
 import NotFoundPage from "./not-found.template"
 import { AppLayout } from "../app-layout.component"
@@ -13,7 +13,7 @@ import { safelyGetFrontMatter } from "../cms"
 const componentTemplateMap = {
   "home-page": HomePage,
   "hidden-page": NotFoundPage,
-  "home-page-alternate": HomePageAlternate,
+  "blog-post": BlogPost,
 }
 
 const CMSTemplate = props => {
